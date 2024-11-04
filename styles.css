@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: .5em .5em;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+} 
+
+header h1{
+    width: 100vw;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+}
+
+.menu{
+    margin-bottom: 1em;
+}
+
+.menu span{
+    background-color: rgb(213, 241, 227);
+    width: auto;
+    border-radius: 0px 0px .7em .7em;
+    padding: 0px 0.5em 0px 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.menu span:hover{
+    background-color: rgb(135, 236, 200);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards{
+    border: .2em solid #b6aeae;
+    width: 20em;
+    margin: .5em;
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card{
+    
+    border: 1px solid;
+    height: 50%;
+}
+
+.cards img{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+.detalle{
+    text-align: justify;
+    padding: .5em;
+}
+
+.footer-principal{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-principal ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-formulario{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    
+}
+
+.title-formulario:hover{
+    color: rgb(135, 236, 200);
+}
+
+.logo-redes{
+    padding: 2em;
+}
+
+.logo-redes img{
+    width: 2em;
+}
+
+.form-contacto{
+    border: #b6aeae solid 1px;
+
+    width: 20vw;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+input{
+
+    padding: .3em;
+    margin-bottom: 2em;
+}
+.btn-enviar{
+    border: #b6aeae solid 1px;
+    background-color: rgb(213, 241, 227);
+    padding: 0px .2em;
+}
+
+.btn-enviar:hover{
+    background-color: rgb(135, 236, 200);
+    
+}

@@ -1,0 +1,51 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Puedes cambiar la fuente si lo deseas */
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Esto hace que los enlaces adopten el color del texto */
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: ;
+}
+
+/* Otros estilos que puedes considerar incluir */
+button {
+    border: none;
+    background: none;
+    font: inherit; /* Hereda la fuente del elemento padre */
+    cursor: pointer; /* Cambia el cursor al pasar sobre un botón */
+}
